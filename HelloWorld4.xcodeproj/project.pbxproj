@@ -13,6 +13,7 @@
 		972E0E7D19ED5A2D003A39C6 /* HelloWorld4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972E0E7C19ED5A2D003A39C6 /* HelloWorld4Tests.m */; };
 		97A1B73B19F00DEB00123723 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73A19F00DEB00123723 /* ViewController1.m */; };
 		97A1B73E19F00DF600123723 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73D19F00DF600123723 /* ViewController2.m */; };
+		97A6DCDC19F55B66008DB9AC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 97A6DCDB19F55B66008DB9AC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		97A1B73A19F00DEB00123723 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		97A1B73C19F00DF600123723 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		97A1B73D19F00DF600123723 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		97A6DCDB19F55B66008DB9AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		972E0E5719ED5A2D003A39C6 = {
 			isa = PBXGroup;
 			children = (
+				97A6DCDB19F55B66008DB9AC /* README.md */,
 				972E0E6219ED5A2D003A39C6 /* HelloWorld4 */,
 				972E0E7919ED5A2D003A39C6 /* HelloWorld4Tests */,
 				972E0E6119ED5A2D003A39C6 /* Products */,
@@ -219,6 +222,7 @@
 			files = (
 				972E0E6919ED5A2D003A39C6 /* AppDelegate.m in Sources */,
 				97A1B73E19F00DF600123723 /* ViewController2.m in Sources */,
+				97A6DCDC19F55B66008DB9AC /* README.md in Sources */,
 				972E0E6619ED5A2D003A39C6 /* main.m in Sources */,
 				97A1B73B19F00DEB00123723 /* ViewController1.m in Sources */,
 			);
