@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController1.h"
 #import "ViewController2.h"
+#import "TopMenuController.h"
 
 
 @implementation AppDelegate
@@ -22,13 +23,12 @@
     window = [[UIWindow alloc] initWithFrame:bounds];
     window.backgroundColor = [UIColor redColor];
     
-    rootController = [[UITabBarController alloc] init];
+    // 시작
     
-    ViewController1* tab1 = [[[ViewController1 alloc ] init] autorelease];
-    ViewController2* tab2 = [[[ViewController2 alloc ] init] autorelease];
+    // 기점이 되는 컨터롤러를 작성해, UINavigationController 에 추가한다.
     
-    NSArray* controllers = [NSArray arrayWithObjects:tab1, tab2, nil] ;
-    [(UITabBarController*)rootController setViewControllers:controllers animated:NO];
+    TopMenuController* topMenu = [[[TopMenuController alloc] init] autorelease];
+    rootController = [[UINavigationController alloc] initWithRootViewController:topMenu];
     
     [window addSubview:rootController.view];
     
