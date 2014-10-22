@@ -17,7 +17,21 @@
 
 -(id)init {
     if ( ( self = [super initWithStyle:UITableViewStylePlain])) {
-        self.title =@"최상위메뉴";
+        self.navigationItem.prompt = @"1행메시지";
+        self.navigationItem.title =@"타이틀";
+        
+        // 버튼을오른쪽에 추가
+        UIBarButtonItem* rightItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:nil action:nil] autorelease];
+        self.navigationItem.rightBarButtonItem = rightItem;
+        
+        // UIImageView 를 왼쪽에 추가
+        UIImage *image = [UIImage imageNamed:@"face.jpg"];
+        UIImageView* imageView = [[[UIImageView alloc] initWithImage:image] autorelease];
+        UIBarButtonItem* icon = [[[UIBarButtonItem alloc] initWithCustomView:imageView] autorelease];
+        self.navigationItem.leftBarButtonItem = icon;
+        // ** 되돌아가기 버튼 표시
+        //self.navigationItem.leftBarButtonItem = nil;
+        
         
         // 표시할 데이터 작성
         items = [[NSMutableArray alloc] initWithObjects:@"ViewController1", @"ViewController2",nil];
