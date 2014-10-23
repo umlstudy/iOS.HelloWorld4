@@ -12,6 +12,7 @@
 		972E0E7119ED5A2D003A39C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972E0E7019ED5A2D003A39C6 /* Images.xcassets */; };
 		972E0E7D19ED5A2D003A39C6 /* HelloWorld4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972E0E7C19ED5A2D003A39C6 /* HelloWorld4Tests.m */; };
 		97323AB319F6AFF500ED94BD /* TopMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97323AB219F6AFF500ED94BD /* TopMenuController.m */; };
+		9780CDD719F7FFC900C630C7 /* SampleForTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */; };
 		97A1B73B19F00DEB00123723 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73A19F00DEB00123723 /* ViewController1.m */; };
 		97A1B73E19F00DF600123723 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73D19F00DF600123723 /* ViewController2.m */; };
 		97A6DCDC19F55B66008DB9AC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 97A6DCDB19F55B66008DB9AC /* README.md */; };
@@ -39,6 +40,8 @@
 		972E0E7C19ED5A2D003A39C6 /* HelloWorld4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld4Tests.m; sourceTree = "<group>"; };
 		97323AB119F6AFF500ED94BD /* TopMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuController.h; sourceTree = "<group>"; };
 		97323AB219F6AFF500ED94BD /* TopMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuController.m; sourceTree = "<group>"; };
+		9780CDD519F7FFC900C630C7 /* SampleForTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleForTitleView.h; sourceTree = "<group>"; };
+		9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleForTitleView.m; sourceTree = "<group>"; };
 		97A1B73919F00DEB00123723 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		97A1B73A19F00DEB00123723 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		97A1B73C19F00DF600123723 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				97A1B73D19F00DF600123723 /* ViewController2.m */,
 				97323AB119F6AFF500ED94BD /* TopMenuController.h */,
 				97323AB219F6AFF500ED94BD /* TopMenuController.m */,
+				9780CDD519F7FFC900C630C7 /* SampleForTitleView.h */,
+				9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */,
 			);
 			path = HelloWorld4;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				972E0E6919ED5A2D003A39C6 /* AppDelegate.m in Sources */,
+				9780CDD719F7FFC900C630C7 /* SampleForTitleView.m in Sources */,
 				97A1B73E19F00DF600123723 /* ViewController2.m in Sources */,
 				97323AB319F6AFF500ED94BD /* TopMenuController.m in Sources */,
 				97A6DCDC19F55B66008DB9AC /* README.md in Sources */,

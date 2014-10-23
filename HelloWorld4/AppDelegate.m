@@ -10,6 +10,7 @@
 #import "ViewController1.h"
 #import "ViewController2.h"
 #import "TopMenuController.h"
+#import "SampleForTitleView.h"
 
 
 @implementation AppDelegate

@@ -34,7 +34,7 @@
         
         
         // 표시할 데이터 작성
-        items = [[NSMutableArray alloc] initWithObjects:@"ViewController1", @"ViewController2",nil];
+        items = [[NSMutableArray alloc] initWithObjects:@"ViewController1", @"ViewController2",@"SampleForTitleView", nil];
     }
     
     return self;
