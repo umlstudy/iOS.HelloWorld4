@@ -14,7 +14,6 @@
 
 @implementation MyImageViewController
 
-
 // finalize
 -(void) dealloc {
     [label release];
