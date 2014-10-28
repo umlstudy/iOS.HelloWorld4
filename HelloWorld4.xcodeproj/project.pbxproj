@@ -12,7 +12,9 @@
 		972E0E7119ED5A2D003A39C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972E0E7019ED5A2D003A39C6 /* Images.xcassets */; };
 		972E0E7D19ED5A2D003A39C6 /* HelloWorld4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972E0E7C19ED5A2D003A39C6 /* HelloWorld4Tests.m */; };
 		97323AB319F6AFF500ED94BD /* TopMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97323AB219F6AFF500ED94BD /* TopMenuController.m */; };
+		9734955719F9542100773264 /* UIViewController.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9734955619F9542100773264 /* UIViewController.txt */; };
 		9780CDD719F7FFC900C630C7 /* SampleForTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */; };
+		978EA77919FFE4AD00FC33A0 /* MyImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 978EA77819FFE4AD00FC33A0 /* MyImageViewController.m */; };
 		97A1B73B19F00DEB00123723 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73A19F00DEB00123723 /* ViewController1.m */; };
 		97A1B73E19F00DF600123723 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1B73D19F00DF600123723 /* ViewController2.m */; };
 		97A6DCDC19F55B66008DB9AC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 97A6DCDB19F55B66008DB9AC /* README.md */; };
@@ -40,8 +42,11 @@
 		972E0E7C19ED5A2D003A39C6 /* HelloWorld4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld4Tests.m; sourceTree = "<group>"; };
 		97323AB119F6AFF500ED94BD /* TopMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuController.h; sourceTree = "<group>"; };
 		97323AB219F6AFF500ED94BD /* TopMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuController.m; sourceTree = "<group>"; };
+		9734955619F9542100773264 /* UIViewController.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIViewController.txt; sourceTree = "<group>"; };
 		9780CDD519F7FFC900C630C7 /* SampleForTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleForTitleView.h; sourceTree = "<group>"; };
 		9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleForTitleView.m; sourceTree = "<group>"; };
+		978EA77719FFE4AD00FC33A0 /* MyImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageViewController.h; sourceTree = "<group>"; };
+		978EA77819FFE4AD00FC33A0 /* MyImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageViewController.m; sourceTree = "<group>"; };
 		97A1B73919F00DEB00123723 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		97A1B73A19F00DEB00123723 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		97A1B73C19F00DF600123723 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -89,6 +94,7 @@
 		972E0E6219ED5A2D003A39C6 /* HelloWorld4 */ = {
 			isa = PBXGroup;
 			children = (
+				9734955519F9534900773264 /* docs */,
 				972E0E6719ED5A2D003A39C6 /* AppDelegate.h */,
 				972E0E6819ED5A2D003A39C6 /* AppDelegate.m */,
 				972E0E7019ED5A2D003A39C6 /* Images.xcassets */,
@@ -101,6 +107,8 @@
 				97323AB219F6AFF500ED94BD /* TopMenuController.m */,
 				9780CDD519F7FFC900C630C7 /* SampleForTitleView.h */,
 				9780CDD619F7FFC900C630C7 /* SampleForTitleView.m */,
+				978EA77719FFE4AD00FC33A0 /* MyImageViewController.h */,
+				978EA77819FFE4AD00FC33A0 /* MyImageViewController.m */,
 			);
 			path = HelloWorld4;
 			sourceTree = "<group>";
@@ -129,6 +137,14 @@
 				972E0E7B19ED5A2D003A39C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9734955519F9534900773264 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				9734955619F9542100773264 /* UIViewController.txt */,
+			);
+			name = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				972E0E7119ED5A2D003A39C6 /* Images.xcassets in Resources */,
+				9734955719F9542100773264 /* UIViewController.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +249,7 @@
 			files = (
 				972E0E6919ED5A2D003A39C6 /* AppDelegate.m in Sources */,
 				9780CDD719F7FFC900C630C7 /* SampleForTitleView.m in Sources */,
+				978EA77919FFE4AD00FC33A0 /* MyImageViewController.m in Sources */,
 				97A1B73E19F00DF600123723 /* ViewController2.m in Sources */,
 				97323AB319F6AFF500ED94BD /* TopMenuController.m in Sources */,
 				97A6DCDC19F55B66008DB9AC /* README.md in Sources */,

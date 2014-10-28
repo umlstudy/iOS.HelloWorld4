@@ -34,7 +34,12 @@
         
         
         // 표시할 데이터 작성
-        items = [[NSMutableArray alloc] initWithObjects:@"ViewController1", @"ViewController2",@"SampleForTitleView", nil];
+        items = [[NSMutableArray alloc] initWithObjects:
+                 @"ViewController1"
+                 , @"ViewController2"
+                 , @"SampleForTitleView"
+                 , @"MyImageViewController"
+                 , nil];
     }
     
     return self;

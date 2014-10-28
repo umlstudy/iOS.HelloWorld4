@@ -11,6 +11,7 @@
 #import "ViewController2.h"
 #import "TopMenuController.h"
 #import "SampleForTitleView.h"
+#import "MyImageViewController.h"
 
 
 @implementation AppDelegate
